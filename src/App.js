@@ -297,7 +297,7 @@ const Item = ({ item, onRemoveItem }) => (
     <span style={{width:'30%'}}>{item.author}</span>
     <span style={{width:'10%'}}>{item.num_comments}</span>
     <span style={{width:'10%'}}>{item.points}</span>
-    <span style={{width:'10%'}}>
+    <span style={{width:'11%'}}>
       <button type="button" onClick={() => onRemoveItem(item)}>
         Dismiss
       </button>
